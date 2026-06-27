@@ -1,10 +1,5 @@
-// Obfuscation logic lives here directly — no background script needed
-
 const invisibleHairs = [
   "\u200D",  // Zero-width joiner only
-  // Removed (render as spaces/superscripts):
-  // \u200B, \uFEFF, \u200C, \uFE00-\uFE0F
-  // \u2061-\u2064 (invisible operators → superscript numbers)
 ];
 
 const homoglyphs = {
